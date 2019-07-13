@@ -1,0 +1,42 @@
+/* .slideshow{
+    width: 90%;
+    margin: auto;
+} */
+
+.top-part{
+    text-align: center;
+    background-image: url("https://i.imgur.com/bln27H9.png");
+    background-size:cover;
+    width: 95%;
+    margin: auto;
+    box-shadow: 5px 5px 5px grey;
+    text-shadow: 1px 1px 1px white;
+}
+
+.btn{
+    text-shadow: none;
+    background-color: blue;
+}
+
+.everything{
+    font-family: 'Patua One', cursive;
+    background-color:#deebff;
+}
+
+.secondsection{
+    widows: 95%;
+    margin: 5px 5px;
+    box-shadow: 5px 5px 5px grey;
+
+}
+
+#second{
+    justify-content: space-around;
+    font-family: 'Literata', serif;
+    text-align: center;
+}
+
+.beige{
+   
+}
+
