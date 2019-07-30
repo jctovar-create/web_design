@@ -1,0 +1,112 @@
+/* @media screen and (max-width: 780px){
+    #aboutMeText{
+        font-size: 0.5em;
+    }
+} */
+
+
+html, body{
+}
+
+#navLinks{
+    list-style: none;
+    background-color:white;
+    width:70%;
+    margin:auto;
+    margin-top: 0px;
+    position: static;
+    box-shadow: 1px 1px 7px black;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 10px;
+}
+
+.right{
+    float:right;
+    margin-right:5px;
+}
+
+.navli{
+    display: inline-block;
+    padding:10px;
+}
+
+.navli:hover{
+        color:blue;
+        font-size: 1.3em;
+        cursor: pointer;
+}
+
+#aboutMePhoto{
+    max-height: 280px;
+    float:left;
+    margin-right:10px;
+    margin-left: 0;
+}
+
+#aboutMeSection{
+    width:90%;
+    margin:11px auto;
+    background:#e8f0ff;
+    padding:0;
+}
+
+#aboutMeText{
+    height:283px;
+    word-wrap: break-word;
+    overflow-x: scroll;
+    padding:5px 2px;
+}
+
+#skillsSection{
+    margin-top:10px;
+}
+
+.videoSkillsText{
+    max-height: 300px;
+    background-color:#fff4f2;
+    overflow: scroll;
+    padding:5px;
+    margin-right:5px;
+    margin-bottom:5px;
+    box-shadow: 1px 1px 6px black;
+    border-radius: 4px;
+}
+
+.webSkillsText{
+    margin-top:5px;
+    height: 470px;
+    background-color:#e6ffe8;
+    overflow: scroll;
+    padding:5px;
+    margin-right:5px;
+    margin-bottom:5px;
+    box-shadow: 1px 1px 6px black;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#webdevTopText{
+    text-align: center;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+#boxingAppIcon{
+    height:200px;
+    width:270px;
+    margin-bottom:5px;
+}
+
+#boxingAppIcon:hover{
+    opacity: 0.5;
+}
+
+.githubRepoBtn{
+    color:white;
+}
+.githubRepoBtn:hover{
+    color:white;
+    text-decoration: none;
+}
+
+
+
