@@ -1,0 +1,190 @@
+/* @media screen and (max-width: 780px){
+    #aboutMeText{
+        font-size: 0.5em;
+    }
+} */
+
+#everything{
+    font-family: 'Raleway', sans-serif;
+
+}
+
+
+
+#navLinks{
+    list-style: none;
+    background-color:white;
+    width:100%;
+    margin:auto;
+    margin-top: 0px;
+    position: static;
+    box-shadow: 1px 1px 7px black;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 10px;
+}
+
+#navLinks:hover{
+    text-decoration: none;
+}
+
+.right{
+    float:right;
+    margin-right:5px;
+}
+
+.navli{
+    display: inline-block;
+    padding:10px;
+}
+
+.navli:hover{
+        color:blue;
+        font-size: 1.05em;
+        cursor: pointer;
+        text-decoration: none;
+}
+
+#aboutMePhoto{
+    max-height: 280px;
+    float:left;
+    margin-right:10px;
+    margin-left: 0;
+    display: inline;
+}
+
+#runningPhoto{
+    max-height: 280px;
+    float:right;
+    margin-right:0px;
+    margin-left: 10px;
+}
+
+#aboutMeSection{
+    width:90%;
+    margin:11px auto;
+    background-image: url("images/color-explosion-background.png") ;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    /* background:#e8f0ff; */
+    padding:7px;
+    height:283px;
+    overflow: scroll;
+}
+
+#aboutMeText{
+    /* overflow-x: scroll; */
+    padding:5px 2px;
+    vertical-align: top;
+    display: inline;
+    box-sizing: border-box;
+}
+
+#skillsSection{
+    margin-top:10px;
+}
+
+.videoSkillsText{
+    max-height: 300px;
+    background-color:#fff4f2;
+    overflow: scroll;
+    padding:5px;
+    margin-right:5px;
+    margin-bottom:5px;
+    box-shadow: 1px 1px 6px black;
+    border-radius: 4px;
+    background-image: url("images/brick.png") ;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.webSkillsText{
+    margin-top:5px;
+    height: 470px;
+    background-color:#faf2ff;
+    overflow: scroll;
+    padding:5px;
+    margin-right:5px;
+    margin-bottom:5px;
+    box-shadow: 1px 1px 6px black;
+    border-radius: 4px;
+    text-align: center;
+    background-image: url("images/htmlCode.png") ;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#webdevTopText{
+    text-align: center;
+    font-family: 'Darker Grotesque', sans-serif;
+    text-decoration: underline
+
+}
+
+.boxingAppIcon{
+    height:200px;
+    width:320px;
+    margin-bottom:5px;
+    transition: all .2s ease-in-out;
+}
+
+.boxingAppIcon:hover{
+    transform:scale(1.05);
+}
+
+.githubRepoBtn{
+    color:white;
+}
+.githubRepoBtn:hover{
+    color:white;
+    text-decoration: none;
+}
+
+.standout{
+    font-family: 'Bungee Shade', cursive;
+    display:block;
+}
+
+.webStandout{
+    font-family: 'Crimson Pro', serif;
+}
+
+
+.twoOne{
+    height:150px;
+    width:220px;
+    margin-right:15px;
+    margin-bottom:10px;
+    transition: all .2s ease-in-out;
+}
+
+.twoOne:hover{
+    transform:scale(1.05);
+}
+
+#newsSection{
+    width:90%;
+    margin:auto;
+    text-align: center;
+}
+
+.videoPortfolio{
+    margin-bottom:6px;
+}
+
+#opDocSection{
+    width:90%;
+    margin:auto;
+    text-align: center;
+}
+
+#vlogSection{
+    width:90%;
+    margin:auto;
+    text-align: center;
+}
