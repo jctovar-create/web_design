@@ -1,0 +1,1 @@
+This is the repo for my personal portfolio website. As of now there is no JS on the site. Things to add are "Load More" button for videos; they currently take too long to load. 
