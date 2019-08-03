@@ -188,3 +188,7 @@
     margin:auto;
     text-align: center;
 }
+
+#loadMoreSection{
+    display:none;
+}
