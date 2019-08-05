@@ -1,3 +1,9 @@
+@media only screen and (max-width: 600px) {
+    body {
+      font-size: 20px;
+    }
+  }
+
 h1:hover a:hover{
     color:#5c89d1;
     text-decoration: underline;
@@ -15,6 +21,7 @@ a:visited{
 
 h1{
     text-align: center;
+    font-size: 1em;
 }
 p{
     text-align: center;
@@ -45,6 +52,7 @@ body{
 .logo{
     display: inline-block;
     margin-left:10px;
+    color:white;
 }
 
 .top{
@@ -99,6 +107,27 @@ img{
     
 }
 
+.fifth-section{
+    background-image: url("https://budfas.org/wp-content/uploads/2017/07/greek_myth.png");
+    background-size: cover;
+    color:white;
+    
+}
+
+.sixth-section{
+    background-image: url("https://www.shutterstock.com/blog/india/wp-content/uploads/sites/10/2017/11/shutterstock_604781609.jpg");
+    background-size: cover;
+    color:white;
+    
+}
+
+.seventh-section{
+    background-image: url("https://cdn.shopify.com/s/files/1/0974/2906/articles/african-art-1732247_1280_1400x.progressive.jpg?v=1531896797");
+    background-size: cover;
+    color:white;
+    
+}
+
 img:hover{
     transform: scale(1.2);
     z-index: -1;
@@ -109,6 +138,77 @@ img:hover{
     opacity: 0.85;
     padding:10px;
 }
+
+.hidden{
+    opacity:0;
+    transition: 250ms ease-in;
+}
+
+.fadeIn{
+    transition:500ms ease-in;
+    opacity: 0;
+}
+
+.fadeIn.appear{
+    opacity:1;
+}
+
+.slideInLeft{
+    transition: 650ms ease-in;
+    transform: translateX(-50%);
+    opacity:0;
+}
+
+.slideInLeft.appear{
+    transform: translateX(0);
+    opacity:1;
+}
+
+.slideRight{
+    transition: 650ms ease-in;
+    transform: translateX(50%);
+    opacity:0;
+}
+
+.slideRight.appear{
+    transform: translateX(0);
+    opacity:1;
+}
+
+.slideDown{
+    transition: 650ms ease-in;
+    transform: translateY(-20%);
+    opacity:0;
+}
+
+.slideDown.appear{
+    transform: translateY(0);
+    opacity:1;
+}
+
+.slide3D{
+    transition: 650ms ease-in;
+    transform: rotate(180deg);
+    opacity:0;
+}
+
+.slide3D.appear{
+    transform: rotate(0deg);
+    opacity:1;
+}
+
+.slide3D2{
+    transition: 650ms ease-in;
+    transform: rotateY(180deg);
+    opacity:0;
+}
+
+.slide3D2.appear{
+    transform: rotate(0deg);
+    opacity:1;
+}
+
+
 
 /* .parent { 
     display: grid; 
